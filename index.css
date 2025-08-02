@@ -1,0 +1,65 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.color-gen-container {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* header */
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 70px;
+}
+
+#input-color, #select-color-scheme, #btn-get-color-scheme {
+    height: 40px;
+    border: 1px #9CA3AF solid;
+    border-radius: 4px;
+    
+}
+
+#input-color {
+    width: 60px;
+    border-radius: 0px;
+}
+
+#select-color-scheme {
+    background-color: white;
+    width: 250px;
+    padding-left: 10px;
+}
+
+#btn-get-color-scheme {
+    background-color: white;
+    padding: 0 10px;
+}
+
+/* main */
+
+#generated-color-scheme {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr auto;
+}
+
+.color-label {
+    text-align: center;
+    padding: 20px 0;
+}
+

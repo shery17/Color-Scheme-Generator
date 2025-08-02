@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="color-gen-container">
+            <header>
+                <form id="form-get-color-scheme">
+                    <input id="input-color" type="color">
+                    <select id="select-color-scheme">
+                        <option value="monochrome">Monochrome</option>
+                        <option value="monochrome-dark">Monochrome-dark</option>
+                        <option value="monochrome-light">Monochrome-light</option>
+                        <option value="analogic">Analogic</option>
+                        <option value="complement">Complement</option>
+                        <option value="analogic-complement">Analogic-complement</option>
+                        <option value="triad">Triad</option>
+                    </select>
+                    <button id="btn-get-color-scheme" type="submit">Get color scheme</button>
+                </form>
+            </header>
+            <main>
+                <div id="generated-color-scheme"></div>
+            </main>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
