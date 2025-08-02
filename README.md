@@ -4,13 +4,13 @@ A simple and interactive web app that lets users pick a base color and select a 
 
 ## Live links
 
-Link to my project:
+Live project:
 https://color-scheme-generator-shery31241.netlify.app/
 
-Link to The Color API:
+The Color API:
 https://www.thecolorapi.com/
 
-Link to the figma design I followed:
+Figma design I followed:
 https://www.figma.com/design/twasy8Bca4hW7gunLFSLoY/Color-Scheme-Generator?node-id=2-1155&t=TMZqEqgHxzhgRb7S-0
 
 ---
