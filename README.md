@@ -29,6 +29,7 @@ https://www.figma.com/design/twasy8Bca4hW7gunLFSLoY/Color-Scheme-Generator?node-
 
 - Fetch API
 - The Color API
-- JavaScript event listeners
-- CSS grid
+- RESTful design
+- JavaScript Event Listeners
+- CSS Grid
 - CSS Flexbox
